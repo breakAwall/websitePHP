@@ -1,0 +1,426 @@
+/* Global */
+
+body {
+	font-family: sans-serif;
+	font-size:15px;
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+	background-color: #ffffff;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.submit {
+	background-color: #197dc4;
+	border: none;
+	color: #ffffff;
+	font-size: 26px;
+	margin-top: 10px;
+}
+
+/* Header **/
+#burger {
+	font-size: 36px;
+	line-height: 90px;
+	display: none;
+	float: right;
+	margin: 20px 10% 0 0;
+}
+
+header {
+	padding-top: 0px;
+	min-height: 100px;
+	border-bottom: #000000 5px solid;
+	font-size: 0px;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	float: left;
+	display: inline;
+	margin: 0 20px 0 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+header ul a {
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+
+header .brand {
+	float: left;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+header #logo {
+	display: inline-block;
+	vertical-align: top;
+	min-height: 80px;
+	width: 80px;
+	border: #000000 2px dotted;
+	margin-top: 20px;
+}
+
+header h1 {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	font-size: 50px;
+	color: #197dc4;
+}
+
+header nav {
+	float: right;
+	margin-top: 50px;
+}
+
+header a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* Landing */
+
+#landing {
+	min-height: 600px;
+	margin: 0;
+	background:url('../img/landing-white-hue2.jpg') 0 -200px;
+	text-align: center;
+	color: #000000;
+}
+
+#intro-blurb {
+	margin-top: 180px;
+}
+
+#intro-blurb h1{
+	font-size: 48px;
+}
+
+#intro-blurb p {
+	margin-top: 30px;
+	font-size: 30px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+#landing button {
+	background-color: #197dc4;
+	border: none;
+	color: #ffffff;
+	font-size: 26px;
+	text-decoration: none;
+	padding: 10px 30px 10px 30px;
+	border-radius: 12px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+
+/* About the App */
+
+#about {
+	margin-top: 30px;
+	min-height: 90vh;
+}
+
+.header {
+	text-align: center;
+	font-size: 30px;
+	color: #107dc4;
+}
+
+#about video {
+	border: black dotted 2px;
+	width: 40%;
+	height: 300px;	
+	float: right;
+	margin-top: 20px;
+}
+
+#about p {
+	margin: 0;
+	width: 50%;
+	min-height: 350px;
+	float: left;
+	font-size: 20px;
+	line-height: 1.5;
+	padding: 20px;
+	background: #eeeeee;
+	color: #000000;
+	border: #aaaaaa solid 1px;
+}
+
+#about .container {
+	margin-bottom: 10px;
+}
+
+#about {
+	border-bottom: #000000 5px solid;
+}
+
+
+
+/* Founder Text */
+
+#founder-blurb {
+	display: inline-block;
+	min-height: 500px;
+	padding-bottom: 30px;
+	border-bottom: #000000 solid 5px;
+}
+
+
+#founder-text {
+	float: right;
+	width: 50%;
+	line-height: 1.5;
+	font-size: 20px;
+}
+
+#tmp-image {
+	float: left;
+	width: 300px;
+	min-width: 250px;
+	border: #000000 dotted 2px;
+	border-radius: 100px;
+	height: 400px;
+	margin-top: 100px;
+}
+
+#founder-blurb #disclaimer2 {
+	text-align: center;
+	margin-top: -20px;
+}
+
+/* Contact */
+
+.contact {
+	min-height: 80vh;
+}
+
+.contact .submit {
+	margin-top: 12vh;
+	width: 20%;
+}
+
+#button-holder {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+
+.contact #disclaimer {
+	text-align: center;
+	margin-top: -20px;
+}
+
+.contact #disclaimer2 {
+	color: #000000;
+	background-color: #eeeeee;
+	border: #cccccc solid 1px;
+	font-size: 15px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.contact #general-info {
+	float: left;
+	font-size: 20px;
+}
+
+.contact #general-info label {
+	display: inline-block;
+  	width: 12%;
+  	margin-right: 5vw;
+	float: left;
+	margin-top: 10px;
+}
+
+.contact #email {
+	margin-top: 10vh;
+}
+
+.contact #name {
+	margin-top: 10vh;
+}
+
+.contact input {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.contact #message {
+	margin-top: 10vh;
+	float: right;
+	font-size: 20px;
+	width: 50%;
+}
+
+#message textarea {
+	margin-top: 10px;
+	width: 90%;
+	min-height: 100px;
+	font-size: 16px;
+}
+
+.alert {
+	text-align: center;
+}
+
+.alert p {
+	font-size: 20px;
+}
+
+.wrong {
+	color: #d10a32;
+}
+
+.right {
+	color: #0ad30a;
+}
+
+
+/* Footer */
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+/* Media Queries */
+
+
+
+@media(max-width: 839px) {
+
+	header nav,
+	header ul,
+	#about video,
+	#about p,
+	#founder-text,
+	#tmp-image,
+	.contact form,
+	.contact #general-info label,
+	.contact #general-info,
+	.contact #message
+	{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.contact #email,
+	.contact #name,
+	.contact #message {
+		margin-top: 20px;
+	}
+
+	.contact .submit {
+		margin-top: 60px;
+	}
+
+	header.brand {
+		float: left;
+	}
+
+	#about video {
+		width: 300px;
+		margin-bottom: 10px;
+	}
+
+	#about p {
+		width: 90%;
+		text-align: center;
+		padding: 10px;
+		display: table-cell;
+	}
+
+	.contact #disclaimer2 {
+		padding: 10px;
+	}
+
+	#about-container {
+		display: table;
+		width: 100%;
+	}
+
+	#intro-blurb {
+		margin-top: 80px;
+	}
+
+	#intro-blurb p {
+		font-size: 26px;
+	}
+
+	#landing {
+		background:url('../img/landing-white-hue2.jpg') no-repeat -600px -200px;
+	}
+
+	.contact #general-info input,
+	.contact .submit {
+		width: 88%;
+	}
+
+
+	#tmp-image {
+		width: 300px;
+		margin: 0 auto;
+	}
+
+
+	.contact #message label {
+		display: inline-block;
+	}
+
+	.submit{
+		width: 100%;
+	}
+
+	header nav {
+		margin-top: 100px;
+		margin-bottom: 10px;
+	}
+
+  	header nav li {
+  		float: none;
+  	}
+
+  	#burger {
+  		display: block;
+  		cursor: pointer;
+  		text-decoration: none;
+  		color: #000000;
+  	}
+
+  	header ul a {
+  		display: block;
+  		line-height: 42px;
+  		border-bottom: 1px solid #d0d3d8;
+  	}
+
+  	.toggle {
+  		display: none;
+  	}
+
+  	.toggle.responsive {
+  		display: block;
+  	}
+
+}
